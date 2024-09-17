@@ -26,7 +26,7 @@ body {
 }
 .login-container input[type="text"],
 .login-container input[type="password"],
-.login-container input[type="email"] { /* Now includes email input */
+.login-container input[type="email"] {
     width: calc(100% - 20px); 
     padding: 10px;
     margin: 10px auto;
@@ -79,34 +79,28 @@ body {
     margin: 0 auto 20px;
 }
 
-/* Developer Mode Toggle Button (small box with icon) */
 #dev-mode-toggle-btn {
     position: absolute;
     bottom: 20px;
     left: 20px;
-    width: 40px; /* Small box */
-    height: 40px; /* Small box */
-    background-color: #87CEEB; /* Sky blue background */
+    width: 40px;
+    height: 40px;
+    background-color: #87CEEB;
     border: none;
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 8px;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 10px rgba(135, 206, 235, 0.8);
 }
-
 #dev-mode-toggle-btn i {
-    color: white; /* White icon color */
-    font-size: 20px; /* Icon size */
+    color: white;
+    font-size: 20px;
 }
-
-/* Hover effect */
 #dev-mode-toggle-btn:hover {
-    background-color: #5da9db; /* Darker blue on hover */
+    background-color: #5da9db;
 }
-
-/* Developer Mode Section (already present) */
 #developer-mode-section {
     position: absolute;
     bottom: 20px;

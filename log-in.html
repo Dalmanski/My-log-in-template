@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login and Sign-up</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> <!-- For icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
 
     <div class="login-container">
         <div class="profile-icon"></div>
-        <h2 id="form-title">Log In</h2> <!-- Initially set to Log In -->
+        <h2 id="form-title">Log In</h2>
 
         <!-- Login Form (Displayed First) -->
         <form id="login-form" action="#" method="post" onsubmit="handleLogin(event)">
@@ -29,7 +29,6 @@
             <input type="submit" value="Sign Up">
         </form>
 
-        <!-- Toggle Links -->
         <p id="toggle-link">
             Don't have an account? <a href="#" onclick="toggleForm()">Sign Up</a>
         </p>
@@ -40,7 +39,6 @@
         <button onclick="clearLocalStorageData()">Clear Data</button>
     </div>
     
-
     <button id="dev-mode-toggle-btn" onclick="toggleDeveloperMode()">
         <i class="fas fa-cog"></i> <!-- Font Awesome gear icon -->
     </button>
